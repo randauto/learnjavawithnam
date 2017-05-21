@@ -6,6 +6,5 @@ package Week8.Ex6;
 public class Test {
     public static void main(String[] args) {
         Dog dog = new Hound();
-        Hound hound  =
     }
 }

@@ -2,7 +2,7 @@ package testing;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Created by TuanLQ on 5/27/17.
@@ -22,7 +22,7 @@ class CalculatorTest {
     void max() {
         Calculator calculator = new Calculator();
 
-        assertEquals(value2, calculator.max(value1,value2));
+        assertEquals(value2, calculator.max(value1, value2));
 
         assertEquals(100, Math.abs(100));
     }
